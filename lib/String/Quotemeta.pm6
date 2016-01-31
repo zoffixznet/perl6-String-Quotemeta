@@ -6,7 +6,7 @@ multi quotemeta (--> Str) is export {
 
 multi quotemeta ($str --> Str) is export {
     unless $str.defined {
-        warn "Use of uninitialized value in quotemeta";
+        warn "Use of uninitialized value";
         return Str;
     }
 

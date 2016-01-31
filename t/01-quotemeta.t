@@ -14,4 +14,7 @@ for 't/code-points.txt'.IO.lines {
     }
 }
 
+my $s;
+is Str, quotemeta($s), 'undef warning';
+
 done-testing;
