@@ -8,5 +8,5 @@
         "String::Quotemeta" : "lib/String/Quotemeta.pm6"
     },
     "authors"      : [ "Zoffix Znet" ],
-    "source-url"   : "git://github.com/zoffixznet/perl6-String-Quotemeta.git"
+    "support"      : {"source"   : "git://github.com/zoffixznet/perl6-String-Quotemeta.git"}
 }
